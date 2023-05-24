@@ -1,0 +1,154 @@
+.back-arrow {
+   position: absolute;
+   top: 4vh;
+   left: 2vw;
+
+   z-index: 5;
+}
+
+.back-arrow img {
+   height: 4vh;
+   margin-right: 1.5vw;
+}
+
+.back-arrow-link {
+   display: flex;
+   align-items: center;
+}
+
+.back-text {
+   font-size: 3vh;
+   font-family: 'Inter';
+   color: #13004C;
+}
+
+.account {
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+   height: 100vh;
+
+   position: relative;
+   overflow: hidden;
+}
+
+.account-gradient {
+   z-index: -1;
+   position: absolute;
+   width: 2180px;
+   height: 2180px;
+   left: 300px;
+   top: -100px;
+
+   background-image: radial-gradient(41.09% 45.96% at 53.85% 54.5%, #4764F8 0%, rgba(71, 100, 248, 0) 100%);
+}
+
+.account-logo__text {
+   font-family: 'Averia Sans Libre';
+   font-style: italic;
+   font-weight: 700;
+   font-size: 10vw;
+
+   color: #FEC5CC;
+
+   text-shadow: 10px 0px #5950AC;
+   margin-top: -200px;
+}
+
+.account-logo__text::first-letter {
+   font-size: 11vw;
+}
+
+.account-descript {
+   font-family: 'Inter';
+   font-style: normal;
+   font-weight: 400;
+   font-size: 1.7vw;
+   line-height: 2vw;
+
+   color: #13004C;
+
+   margin-left: 42%;
+   margin-top: -44px;
+}
+
+.form-auth {
+   padding: 40px 30px;
+   display: flex;
+   flex-direction: column;
+
+   background: #FDFDFD;
+   box-shadow: -9px 9px 15px rgba(0, 0, 0, 0.25);
+   border-radius: 20px;
+}
+
+.form-name {
+   font-family: 'Inter';
+   font-style: normal;
+   font-weight: 400;
+   font-size: 5vh;
+   text-align: center;
+}
+
+.login-description {
+   font-family: 'Inter';
+   font-style: normal;
+   font-weight: 400;
+   font-size: 1.5rem;
+   line-height: 24px;
+   color: #13004C;
+   margin-top: 3vh;
+   text-align: center;
+}
+
+.login-description-link {
+   color: #7998EA;
+   text-decoration: underline;
+
+}
+
+.login-description-link:hover {
+   text-decoration: none;
+}
+
+.login-form {
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+}
+
+.form-button {
+   background: #4764F8;
+   border-radius: 10px;
+   padding: 1.2vh 3.2vh;
+   margin-top: 27px;
+   font-family: 'Inter';
+   font-style: normal;
+   font-weight: 400;
+   font-size: 1.8rem;
+   color: #FDFDFD;
+
+   transition: all 0.2s linear;
+}
+
+.form-button:hover {
+   background: #7998EA;
+}
+
+.form-input {
+   background: #FDFDFD;
+   border: 1px solid #5F78F9;
+   border-radius: 10px;
+   height: 5vh;
+   width: 22vw;
+   margin: 0 auto;
+   margin-top: 27px;
+   padding-left: 1vw;
+
+   min-height: 36px;
+}
+
+.form-input::placeholder {
+   font-size: 12px;
+   color: #5F78F9;
+}
