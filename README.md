@@ -1,70 +1,26 @@
-# Getting Started with Create React App
+Для запуска проекта:
+1) Скачать проект
+2) Перейти в корневую папку
+3) В консоли прописать npm install (Для этого на компьютере надо иметь nodeJs и npm)
+4) После того, как все модули скачаются запускаем проект с помощью команды npm start
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Главная страница:
+![image](https://github.com/ArtemTis/ClientChatHackathon/assets/87804006/e20424b7-1563-41bb-bdfa-b2e76d3e2763)
+Если пользователь авторизован, он может открыть чат с менеджером в правом нижнем углу главной странице и задать свой вопрос:
+![image](https://github.com/ArtemTis/ClientChatHackathon/assets/87804006/29a5c2f8-d372-4a52-9b85-3c9802460bdd)
+Если пользователь не авторизован, при открытии чата будет следующее сообщение:
+![image](https://github.com/ArtemTis/ClientChatHackathon/assets/87804006/9173a3f4-c224-4bf2-a295-eb0476a9afb2)
+Клиент может перейти на страницу авторизации по кнопке внизу чата или по кнопке в шапке главной страницы:
+![image](https://github.com/ArtemTis/ClientChatHackathon/assets/87804006/be6c27f9-6098-4a92-b27f-b3ac6af820f0)
+Если пользователь впервые на нашем сайте, он может зарегистрироваться:
+![image](https://github.com/ArtemTis/ClientChatHackathon/assets/87804006/6dd08f11-cb2d-4697-ad5a-54fe9d61fb37)
+После авторизации у клиента появляется доступ к чату, а у менеджера появляется кнопка для доступа к админ панеле.
+При входе нас встречает следующая страница:
+![image](https://github.com/ArtemTis/ClientChatHackathon/assets/87804006/b0927c5c-3bdb-45d8-91ed-772e9b34cb8b)
+Мы можем переключаться между вкладками с отсортированными чатами: созданные, активные и завершенные.
+![image](https://github.com/ArtemTis/ClientChatHackathon/assets/87804006/cea5b57e-0a5f-404f-82f5-9b5c07f0d677)
+После перехода к конкретному чату открывается диалог с клиентом (На скриншоте пример с fake API сообщениями)
+![image](https://github.com/ArtemTis/ClientChatHackathon/assets/87804006/0f37b14b-145a-4d3e-abfb-8f57eb5da18d)
 
-## Available Scripts
 
-In the project directory, you can run:
 
-### `npm start`
-
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
-
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
