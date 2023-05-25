@@ -5,7 +5,9 @@
 4) После того, как все модули скачаются запускаем проект с помощью команды npm start
 
 Главная страница:
-![image](https://github.com/ArtemTis/ClientChatHackathon/assets/87804006/e20424b7-1563-41bb-bdfa-b2e76d3e2763)
+![image](https://github.com/ArtemTis/ClientChatHackathon/assets/87804006/11940c7d-4c96-400b-a4b9-aed713536b06)
+
+
 Если пользователь авторизован, он может открыть чат с менеджером в правом нижнем углу главной странице и задать свой вопрос:
 ![image](https://github.com/ArtemTis/ClientChatHackathon/assets/87804006/29a5c2f8-d372-4a52-9b85-3c9802460bdd)
 Если пользователь не авторизован, при открытии чата будет следующее сообщение:
@@ -15,6 +17,7 @@
 Если пользователь впервые на нашем сайте, он может зарегистрироваться:
 ![image](https://github.com/ArtemTis/ClientChatHackathon/assets/87804006/6dd08f11-cb2d-4697-ad5a-54fe9d61fb37)
 После авторизации у клиента появляется доступ к чату, а у менеджера появляется кнопка для доступа к админ панеле.
+![image](https://github.com/ArtemTis/ClientChatHackathon/assets/87804006/e20424b7-1563-41bb-bdfa-b2e76d3e2763)
 При входе нас встречает следующая страница:
 ![image](https://github.com/ArtemTis/ClientChatHackathon/assets/87804006/b0927c5c-3bdb-45d8-91ed-772e9b34cb8b)
 Мы можем переключаться между вкладками с отсортированными чатами: созданные, активные и завершенные.
