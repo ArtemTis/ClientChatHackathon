@@ -21,7 +21,7 @@
 При входе нас встречает следующая страница:
 ![image](https://github.com/ArtemTis/ClientChatHackathon/assets/87804006/b0927c5c-3bdb-45d8-91ed-772e9b34cb8b)
 Мы можем переключаться между вкладками с отсортированными чатами: созданные, активные и завершенные.
-![image](https://github.com/ArtemTis/ClientChatHackathon/assets/87804006/cea5b57e-0a5f-404f-82f5-9b5c07f0d677)
+![image](https://github.com/ArtemTis/ClientChatHackathon/assets/87804006/168526ad-1628-4e5b-abee-24c437bbbbca)
 После перехода к конкретному чату открывается диалог с клиентом (На скриншоте пример с fake API сообщениями)
 ![image](https://github.com/ArtemTis/ClientChatHackathon/assets/87804006/0f37b14b-145a-4d3e-abfb-8f57eb5da18d)
 
